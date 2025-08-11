@@ -78,11 +78,13 @@ FINETUNE = "last1"   # options: "frozen", "last1", "lastN", "all"
 
 **MSE vs. Epochs:**  
 
-![alt text](image.png)
+<img width="567" height="455" alt="image" src="https://github.com/user-attachments/assets/008f4953-c8f0-4d45-b56e-a4e4ce188db2" />
+
 
 **Valence Arousal Scatter:**
 
-![alt text](image-1.png)
+<img width="554" height="455" alt="image" src="https://github.com/user-attachments/assets/b1716862-d4be-46e5-b6dc-a8a37beb746b" />
+
 
 **Confusion Matrix:**
 
