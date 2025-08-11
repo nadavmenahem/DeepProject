@@ -86,4 +86,5 @@ FINETUNE = "last1"   # options: "frozen", "last1", "lastN", "all"
 
 **Confusion Matrix:**
 
-![alt text](image-2.png)
+<img width="581" height="503" alt="image" src="https://github.com/user-attachments/assets/52faaf6f-d9c1-4eb5-829f-10425fd51310" />
+
