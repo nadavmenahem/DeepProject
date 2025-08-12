@@ -125,6 +125,14 @@ train_augmentations = transforms.Compose([
 
 **MSE vs. Epochs:**  
 
+<img width="375" height="226" alt="image" src="https://github.com/user-attachments/assets/db383ee9-33be-4419-9e11-01b607b3bfb9" />
+
+
 **Valence Arousal Scatter:**
 
+<img width="337" height="275" alt="image" src="https://github.com/user-attachments/assets/a64610c4-7c21-4875-bf24-f019ecc26651" />
+
+
 **Confusion Matrix:**
+
+<img width="339" height="295" alt="image" src="https://github.com/user-attachments/assets/a7759c5e-f246-49cb-a482-b59dc3beca30" />
