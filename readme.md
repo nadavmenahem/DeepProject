@@ -1,6 +1,6 @@
 # DEAM Emotion Regression Comparasion – Wav2Vec2 & Mamba Vision
 
-![alt text](image-3.png)
+<img width="300" height="168" alt="image" src="https://github.com/user-attachments/assets/db43bf44-e906-4a13-a03b-4fd44f49b891" />
 
 ## Table of Contents
 - [Overview](#Overview)
@@ -35,7 +35,7 @@ The DEAM dataset provides **static per-song valence/arousal** as labels.
 - Consists 1744 tracks from various genres with labels.
 - Labels: Valence & Arousal constracting 2D emotion space.
 
-![alt text](image-6.png)
+<img width="505" height="413" alt="image" src="https://github.com/user-attachments/assets/a2cdd32f-2a17-406e-b9bf-b773cf488e28" />
 
 ---
 
