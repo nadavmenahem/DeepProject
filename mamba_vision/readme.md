@@ -1,5 +1,7 @@
 # Music Emotion Regression with MambaVision
 
+<img width="1339" height="312" alt="image" src="https://github.com/user-attachments/assets/98b829bd-f84f-4590-b70b-5710681e9515" />
+
 Predict continuous **valence** and **arousal** from audio using a **MambaVision** backbone and vision-style training on log-mel spectrogram “images”. This project includes a reproducible preprocessing pipeline, dataset wrapper, dual-head regressor, cyclic learning rate scheduling, and correlation/variance regularization.
 
 
