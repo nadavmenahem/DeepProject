@@ -2,6 +2,16 @@
 
 <img width="932" height="509" alt="image" src="https://github.com/user-attachments/assets/46169c09-59d0-4716-bf05-5e313fcb3118" />
 
+## Table of Contents
+- [Overview](#Overview)
+- [Training Configuration](#Training-Configuration)
+- [Running the Pipline](#Running-the-Pipline)
+- [Helpers](#Helpers)
+- [Folder Layout](#Folder-Layout)
+- [Results](#Results)
+
+## Overview
+
 This part of the project predicts **continuous valence & arousal** from music using **Wav2Vec 2.0** features.\
 This part include the following files:
 
@@ -15,7 +25,7 @@ Two separate regression heads are trained — one for **valence** prediction and
 
 ---
 
-## Overview (Wav2Vec2)
+## Training Configuration
 
 - **Input**: ~45 s audio clips (or features of the audio extracted using wav2vec2's first 10 layers)
 - **Features**: Wav2Vec 2.0 hidden states at **16 kHz**.
@@ -65,7 +75,7 @@ DEAM_feats/
 
 ---
 
-## Folder layout
+## Folder Layout
 ```text
 ├─ wav2vec_model.ipynb              # main notebook
 ├─ data_utils.py                    # raw‑audio helper (KaggleHub + librosa)
