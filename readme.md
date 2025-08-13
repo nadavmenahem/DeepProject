@@ -1,6 +1,6 @@
 # DEAM Emotion Regression Comparasion – Wav2Vec2 & Mamba Vision
 
-<img width="300" height="168" alt="image" src="https://github.com/user-attachments/assets/db43bf44-e906-4a13-a03b-4fd44f49b891" />
+<img width="1412" height="794" alt="image" src="https://github.com/user-attachments/assets/5f2430b8-9c72-4ad3-9020-b9f00d06bb24" />
 
 ## Table of Contents
 - [Overview](#Overview)
