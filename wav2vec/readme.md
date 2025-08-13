@@ -1,5 +1,7 @@
 # Wav2Vec2
 
+<img width="932" height="509" alt="image" src="https://github.com/user-attachments/assets/46169c09-59d0-4716-bf05-5e313fcb3118" />
+
 This part of the project predicts **continuous valence & arousal** from music using **Wav2Vec 2.0** features.\
 This part include the following files:
 
