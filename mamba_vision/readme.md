@@ -2,13 +2,28 @@
 
 <img width="1339" height="312" alt="image" src="https://github.com/user-attachments/assets/98b829bd-f84f-4590-b70b-5710681e9515" />
 
-Predict continuous **valence** and **arousal** from audio using a **MambaVision** backbone and vision-style training on log-mel spectrogram “images”. This project includes a reproducible preprocessing pipeline, dataset wrapper, dual-head regressor, cyclic learning rate scheduling, and correlation/variance regularization.
+## Table of Contents
+- [Overview](#Overview)
+- [Training Configuration](#Training-Configuration)
+- [Project Structure](#Project-Structure)
+- [Setup](#Setup)
+- [Folder structure](#Folder-structure)
+- [Data & Annotations](#Data--Annotations)
+- [Precompute Mel-Spectrogram Chunks](#Precompute-Mel-Spectrogram-Chunks)
+- [Dataset Wrapper](#Dataset-Wrapper)
+- [Hyperparameters](#Hyperparameters)
+- [Results](#Results)
 
 
 ---
 
 ## Overview
 
+Predict continuous **valence** and **arousal** from audio using a **MambaVision** backbone and vision-style training on log-mel spectrogram “images”. This project includes a reproducible preprocessing pipeline, dataset wrapper, dual-head regressor, cyclic learning rate scheduling, and correlation/variance regularization.
+
+---
+
+## Training Configuration
 - **Input**: ~45 s audio clips → 6 evenly spaced **5 s** chunks.
 - **Features**: Log-mel spectrogram, normalized per sample, resized to **3 × 224 × 224** (RGB-like) for vision backbones.
 - **Backbone**: `mamba_vision_S` (pretrained).
